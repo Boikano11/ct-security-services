@@ -1,0 +1,88 @@
+.about{
+    display: grid;
+    grid-template-columns: 2fr 3fr 4fr;
+    margin: 50px 100px;
+    height: 80vh;
+}
+.aboutImg{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    align-self: center;
+}
+.aboutImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.aboutImg .top{
+    border-top-left-radius: 20px;
+}
+
+.aboutImg .bottom{
+    border-bottom-left-radius: 20px;
+}
+
+.aboutText{
+    background: #657692;
+    color: #fff;
+    padding: 70px 30px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.aboutText h1{
+    font-size: 2.5rem;
+}
+
+.aboutText p{
+    font-size: 0.9rem;
+}
+
+.aboutText button{
+    background: #012f46;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    width: fit-content;
+    font-size: x-small;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.aboutWhy{
+    width: 100%;
+    height: 80%;
+    align-self: center;
+    box-shadow: 5px 5px 5px 1px #dbdbdb;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px 30px;
+}
+
+.aboutWhy p{
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.whyUs{
+    font-size: 1.2rem;
+}
+
+.aboutWhy i{
+    background: #012f46;
+    color: #fff;
+    padding: 5px;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+.aboutWhy h4, .whyUs{
+    color: #012f46;
+}
+
+.padLeft{
+    margin-top: 5px;
+    padding-left: 40px;
+}

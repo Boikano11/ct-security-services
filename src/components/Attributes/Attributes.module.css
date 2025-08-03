@@ -9,7 +9,6 @@
   gap: 20px;
   position: relative;
   z-index: 0;
-  /* Don't add overflow: hidden here! */
 }
 
 .attributes .card {
@@ -50,4 +49,14 @@
 .attributes .card > * {
   position: relative;
   z-index: 1;
+}
+
+.card h3{
+  font-size: 1.2rem;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.card p{
+  font-size: 0.9rem;
 }

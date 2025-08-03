@@ -4,6 +4,7 @@ import Attributes from '@/components/Attributes/Attributes'
 import Newsletter from '@/components/Newsletter/Newsletter'
 import Footer from '@/components/Footer/Footer'
 import BlogArticles from '@/components/BlogArticles/BlogArticles'
+import About from '@/components/About/About'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <Navbar/>
     <Hero />
     <Attributes />
+    <About />
     <BlogArticles />
     <Newsletter />
     <Footer />

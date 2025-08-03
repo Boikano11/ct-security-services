@@ -1,16 +1,18 @@
 import React from 'react'
 import styles from './Hero.module.css'
+import { Mulish } from 'next/font/google';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
+import { mulish } from '@/app/fonts';
 
 const Hero = () => {
   return (
     <div>
         <section className={styles.hero}>
             <div className={styles.hero_left}>
-                <h1>Professional</h1>
-                <h1><span>Security Services</span></h1>
-                <h1>You Can Trust</h1>
+                <h1 className={mulish.className}>Professional</h1>
+                <h1 className={mulish.className}><span>Security Services</span></h1>
+                <h1 className={mulish.className}>You Can Trust</h1>
                 <hr className={styles.horizontal} />
                 <p>Lorem ipsum dolor sit, 
                     amet consectetur adipisicing elit.
