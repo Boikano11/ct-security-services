@@ -1,0 +1,76 @@
+.footer{
+    background: #8796ad;
+    color: white;
+    padding: 0 100px;
+}
+
+.footerNav{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    padding: 15px 0;
+    justify-content: flex-start;
+}
+
+.socialLinks{
+    font-size: small;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    font-size: small;
+}
+
+.navLinks ul li{
+    list-style: none;
+    padding: 2px;
+}
+
+
+.quickLinks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    font-size: small;
+}
+
+.quickLinks ul li{
+    list-style: none;
+    padding: 2px;
+}
+
+
+.workingHours{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    font-size: small;
+}
+
+.workingHours p{
+    margin-bottom: 10px;
+}
+
+.workingHours button{
+    background: #092228;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    width: fit-content;
+    font-size: x-small;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.workingHours button i{
+    font-size: x-small;
+}
+
+.copyWrite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}

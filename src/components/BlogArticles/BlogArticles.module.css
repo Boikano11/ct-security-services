@@ -1,0 +1,39 @@
+.blogArticles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.blogArticles .header{
+    text-align: center;
+    width: 35%;
+}
+
+.blogArticles main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+.card img{
+    height: 400px;
+    width: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.card p{
+    color: gray;
+    font-size: small;
+    width: 300px;
+}
+
+.card button{
+    border: none;
+    color: gray;
+    
+}
+
+.card img, .card p, .card button, .card h4{
+    margin-bottom: 8px;
+}

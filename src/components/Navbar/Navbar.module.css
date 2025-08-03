@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    border-bottom: 2px solid #b6b6b6;
+    margin: 0 100px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li{
+    list-style: none;
+    margin-left: 50px;
+    padding: 15px 0;
+}
+
+.socials{
+    padding: 15px 0;
+    margin-left: 50px;
+}
+
+.socials i{
+    margin-left: 15px;
+}
