@@ -1,14 +1,19 @@
 .newsletter{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     background: #657692;
     color: white;
     padding: 50px 100px;
     font-weight: 200;
 }
 
+.left h1{
+    font-size: 2.5rem;
+}
+
 .left p{
-    font-size: small;
+    font-size: 0.9rem;
+    padding-right: 100px;
 }
 
 .right{
@@ -32,7 +37,7 @@
     border-radius: 10px;
     border: none;
     color: #fff;
-    background: #092228;
+    background: #012f46;
     font-size: small;
 }
 

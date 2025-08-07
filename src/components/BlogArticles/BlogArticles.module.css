@@ -10,11 +10,25 @@
     width: 35%;
 }
 
+.blogArticles .header h1{
+    color: #012f46;
+    font-size: 1.8rem;
+}
+
+.blogArticles .header p{
+    font-size: 0.9rem;
+    color: gray;
+}
+
 .blogArticles main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
 }
+.card{
+    margin-bottom: 50px;
+}
+
 .card img{
     height: 400px;
     width: 350px;
@@ -22,6 +36,10 @@
     object-fit: cover;
 }
 
+.card h4{
+    color: #012f46;
+    margin-top: 10px;
+}
 .card p{
     color: gray;
     font-size: small;
@@ -30,10 +48,18 @@
 
 .card button{
     border: none;
-    color: gray;
+    color: #012f46;
     
 }
 
 .card img, .card p, .card button, .card h4{
     margin-bottom: 8px;
+}
+
+.card span{
+    color: gray;
+}
+
+.card p, .card button{
+    font-size: 0.7rem;
 }

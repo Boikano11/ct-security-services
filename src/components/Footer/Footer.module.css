@@ -1,7 +1,7 @@
 .footer{
     background: #8796ad;
     color: white;
-    padding: 0 100px;
+    padding: 40px 100px;
 }
 
 .footerNav{
@@ -22,11 +22,14 @@
     font-size: small;
 }
 
+.navLinks h4, .quickLinks h4, .workingHours h4{
+    font-size: 1.1rem;
+}
+
 .navLinks ul li{
     list-style: none;
     padding: 2px;
 }
-
 
 .quickLinks{
     display: flex;
@@ -49,28 +52,24 @@
 }
 
 .workingHours p{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .workingHours button{
-    background: #092228;
+    background: #012f46;
     color: #fff;
     border: none;
-    padding: 15px 40px;
+    padding: 15px 30px;
     width: fit-content;
-    font-size: x-small;
+    font-size: 0.8rem;
     font-weight: bold;
     border-radius: 10px;
-}
-
-.workingHours button i{
-    font-size: x-small;
 }
 
 .copyWrite{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    font-size: small;
 }

@@ -1,18 +1,15 @@
 import React from 'react'
 import styles from './Newsletter.module.css'
+import { mulish } from '@/app/fonts'
 
 const Newsletter = () => {
   return (
     <div>
         <div className={styles.newsletter}>
             <section className={styles.left}>
-                <h1>Our Newsletters</h1>
+                <h1 className={mulish.className}>Our Newsletters</h1>
                 <br />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Repellendus, iusto id. 
-                    Eius voluptatibus recusandae molestiae quisquam quos
-                    consequatur ea nisi saepe rerum dolorum, repellat fugiat totam eum, 
-                    veritatis expedita quia.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam inventore fugit quisquam esse?
                 </p>
             </section>
             <section className={styles.right}>

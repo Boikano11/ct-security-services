@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: flex-end;
-    color: black;
+    color: #012f46;
     border-bottom: 2px solid #b6b6b6;
     margin: 0 100px;
 }
@@ -14,6 +14,7 @@
     list-style: none;
     margin-left: 50px;
     padding: 15px 0;
+    font-size: 0.9rem;
 }
 
 .socials{

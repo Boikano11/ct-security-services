@@ -4,13 +4,13 @@ import { ChevronDown } from 'lucide-react';
 import styles from './Navbar.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-
+import { poppins } from '@/app/fonts';
 
 const Navbar = () => {
   return (
     <div>
         <nav className={styles.navbar}>
-          <ul>
+          <ul className={poppins.className}>
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about-us">About Us <ChevronDown size={12} /></Link></li>
             <li><Link href="/services">Services <ChevronDown size={12} /></Link></li>

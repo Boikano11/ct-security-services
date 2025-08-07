@@ -38,14 +38,14 @@
   border-radius: 10px;
 }
 
-/* On hover: scale beyond the card */
+
 .attributes .card:hover::before {
   opacity: 1;
-  transform: scale(1, 1.7); /* or scale(1.2, 1.5) for more vertical */
+  transform: scale(1, 1.7);
   border-radius: 10px;
 }
 
-/* Keep content above the scaling background */
+
 .attributes .card > * {
   position: relative;
   z-index: 1;

@@ -5,6 +5,8 @@
 .socials i{
     color: #fff;
     margin-right: 5px;
-    background: #092228;
+    background: #012f46;
     padding: 8px;
+    border-radius: 2px;
+    font-size: larger;
 }

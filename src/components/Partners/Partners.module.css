@@ -1,0 +1,19 @@
+.partners{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 100px;
+}
+
+.partner1, .partner2, .partner3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnersText p{
+    color: gray;
+}
+
+.partnersText h1{
+    color: #012f46;
+}

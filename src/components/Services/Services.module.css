@@ -1,0 +1,43 @@
+.services{
+    padding: 30px 100px;
+    margin: 100px 0;
+    height: 80svh;
+}
+.servicesHeader{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.servicesHeader .servicesLeft h1{
+    font-size: 2.5rem;
+}
+.servicesHeader .servicesRight{
+    padding-left: 180px;
+    font-size: 0.9rem;
+}
+.servicesBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 30px;
+}
+
+.serviceCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 150px;
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+}
+.serviceCard:hover{
+    background: #8796ad;
+    color: #fff;
+}
+
+.serviceCard i, .serviceCard h3, .serviceCard p{
+    margin-bottom: 20px;
+}
