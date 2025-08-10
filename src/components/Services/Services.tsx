@@ -11,7 +11,7 @@ const Services = () => {
                     </h1>
                 </section>
                 <section className={styles.servicesRight}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ipsa mollitia qui laboriosam impedit exercitationem reprehenderit neque!
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ipsa mollitia qui laboriosam impedit exercitationem reprehenderit neque!</p>
                 </section>
             </div>
             <div className={styles.servicesBody}>

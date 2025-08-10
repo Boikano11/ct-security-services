@@ -15,6 +15,10 @@
     font-size: small;
 }
 
+.socialLinks p{
+    color: #fff;
+}
+
 .navLinks{
     display: flex;
     flex-direction: column;
@@ -53,6 +57,7 @@
 
 .workingHours p{
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .workingHours button{
@@ -72,4 +77,7 @@
     align-items: center;
     padding-top: 30px;
     font-size: small;
+}
+.copyWrite p{
+    color: #fff;
 }
