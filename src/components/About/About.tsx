@@ -14,7 +14,7 @@ const About = () => {
                 <img className={styles.bottom} src="https://wezatech.com/wp-content/uploads/2024/06/Security-camera-on-the-wall-close-up-and-worker-hand-with-a-work-tools-1024x653.jpg" alt="" />
             </div>
             <div className={styles.aboutText}>
-                <h1>About Us</h1>
+                <h2>About Us</h2>
                 <br />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odio amet repudiandae magni, 
                     necessitatibus fuga eligendi cumque nihil libero tempore, ducimus laborum eius porro veritatis saepe iure illum soluta quasi illo. 

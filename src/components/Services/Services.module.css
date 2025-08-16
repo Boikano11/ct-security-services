@@ -9,11 +9,12 @@
 }
 
 .servicesHeader .servicesLeft h1{
+    color: var(--heading-color);
     font-size: 2.5rem;
 }
 .servicesHeader .servicesRight{
     padding-left: 180px;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .servicesBody{
     display: grid;
@@ -34,11 +35,18 @@
     height: 350px;
     width: 300px;
 }
-.serviceCard:hover{
-    background: #8796ad;
-    color: #fff;
+.serviceCard:hover, .serviceCard:hover h3{
+    background: var(--bg-primary);
+    color: var(--text-secondary);
 }
 
+.serviceCard h3{
+    color: var(--heading-color);
+}
 .serviceCard i, .serviceCard h3, .serviceCard p{
     margin-bottom: 20px;
+}
+
+.serviceCard p{
+    font-size: 1rem;
 }

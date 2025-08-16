@@ -52,12 +52,11 @@
 }
 
 .card h3{
-  font-size: 1.2rem;
   margin-top: 15px;
   margin-bottom: 20px;
 }
 
 .card p{
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #fff;
 }
